@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube preview card",
+  "version": "0.0.0.1",
+  "description": "Add the preview card of publisher",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["scripts/jquery-3.6.4.min.js","scripts/content.js"],
+      "html": ["card.html"]
+    }
+  ],
+  "author": "zk39",
+  
+  "icons": {
+    "48": "img/smartCat.jpg",
+    "128": "img/smartCat.jpg"
+  }
+}
