@@ -16,7 +16,7 @@ This is a Chrome Extension project that implements a preview card for YouTube vi
 Here's  screenshots.
 
 
-![My Image](/images/srceenshot1.jpeg "youtube preview card")
+![My Image](/srceenshot1.jpeg "youtube preview card")
 
 ## Technologies Used
 
